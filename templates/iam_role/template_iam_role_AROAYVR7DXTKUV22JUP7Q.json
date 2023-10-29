@@ -1,0 +1,1 @@
+{"Version":"2012-10-17","Id":"stacksets-exec-5a6a4035586ea688ceae5b8c35bdb56c-assume-role-policy","Statement":[{"Sid":"1","Effect":"Allow","Principal":{"AWS":"arn:aws:iam::450199483772:role/aws-service-role/stacksets.cloudformation.amazonaws.com/AWSServiceRoleForCloudFormationStackSetsOrgAdmin"},"Action":"sts:AssumeRole"}]}

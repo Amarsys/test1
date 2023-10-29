@@ -1,0 +1,51 @@
+[
+    [
+        "variableName": "role_name",
+        "mappingFieldName": "roleName",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true
+    ],
+    [
+        "variableName": "custom_policies",
+        "mappingFieldName": "override",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true,
+        "templateDefinitions": [
+        "templateId": "4"
+        ]
+    ],
+    [
+        "variableName": "managed_policy_arns",
+        "mappingFieldName": "override",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true,
+        "templateDefinitions": [
+        "templateId": "4"
+        ]
+    ],
+    [
+        "variableName": "assume_role_policy",
+        "mappingFieldName": "assumeRolePolicyDocument",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true,
+        "isUrlEncoded": true
+    ],
+    [
+        "variableName": "tags",
+        "mappingFieldName": "tags",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true
+    ],
+    [
+        "variableName": "description",
+        "mappingFieldName": "description",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true
+    ],
+    [
+        "variableName": "path",
+        "mappingFieldName": "path",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true
+    ]
+]

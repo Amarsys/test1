@@ -1,0 +1,1 @@
+{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"AWS":"arn:aws:iam::450199483772:role/lacework-agentless-brightloom-task-role-11df"},"Action":"sts:AssumeRole","Condition":{"StringEquals":{"sts:ExternalId":"5678BF9"}}}]}

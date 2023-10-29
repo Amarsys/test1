@@ -1,0 +1,40 @@
+[
+    [
+        "variableName": "routes",
+        "mappingFieldName": "override",
+        "isReferenceVariable": true,
+        "isRootModuleEnabled": true,
+        "mappingFieldName": ["natGatewayId","gatewayId"],
+        "mappingModuleName": [
+            "natGatewayId": "nat_gateway",
+            "gatewayId": "internet_gateway"
+        ],
+        "mappingModuleRef": ["natGatewayId","gatewayId"],
+        "referenceKey": [
+            "natGatewayId": "id",
+            "gatewayId": "igw_id"
+        ],
+        "templateDefinitions": [
+            "templateId": "1",
+            "loopThrough": "routes",
+            "containsField": "gatewayId",
+            "startsWith": "nat-"
+        ]
+    ],
+    [
+        "variableName": "vpc_id",
+        "mappingFieldName": "vpcId",
+        "isReferenceVariable": true,
+        "mappingModuleName": "vpc",
+        "mappingModuleRef": "vpcId",
+        "referenceKey": "id",
+        "isMandatoryVariable": true,
+        "isRootModuleEnabled": true
+    ],
+    [
+        "variableName": "tags",
+        "mappingFieldName": "tags",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true
+    ]
+]

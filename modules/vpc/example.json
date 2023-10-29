@@ -1,0 +1,77 @@
+{
+  "_id": {
+    "$oid": "627ec2924d3fc16d97de48af"
+  },
+  "resourceProviderId": "5b3b7e451f8bb13b1a24f8d1",
+  "resourceProviderName": "AWS",
+  "region": "us-east-1",
+  "type": "Vpc",
+  "qualifiedType": "com.amazonaws.services.ec2.model.Vpc",
+  "dataObject": {
+    "className": "com.amazonaws.services.ec2.model.Vpc",
+    "cidrBlock": "12.3.0.0/16",
+    "dhcpOptionsId": "dopt-9b156fff",
+    "state": "available",
+    "vpcId": "vpc-06c5b45c7ead07893",
+    "ownerId": "835181585695",
+    "instanceTenancy": "default",
+    "cidrBlockAssociationSet": [
+      {
+        "associationId": "vpc-cidr-assoc-0c283b0ee89896f11",
+        "cidrBlock": "10.3.0.0/16",
+        "cidrBlockState": {
+          "state": "associated"
+        }
+      }
+    ],
+    "isDefault": false,
+    "tags": [
+      {
+        "key": "Name",
+        "value": "JbossMongoNetwork"
+      },
+      {
+        "key": "Creator",
+        "value": "835181583795"
+      }
+    ]
+  },
+  "jobId": "627ea9396b9bdf4e44636485",
+  "jobRunId": "627ec2412c53556faab1cefd",
+  "collector": "aws",
+  "createdDateTime": {
+    "$date": "2022-05-13T20:41:54.069Z"
+  },
+  "updatedDateTime": {
+    "$date": "2022-05-13T20:41:54.069Z"
+  },
+  "createdUserId": "d20e7189-34bc-4d7c-af1e-1f564610a2b5",
+  "updatedUserId": "d20e7189-34bc-4d7c-af1e-1f564610a2b5",
+  "owner": "d20e7189-34bc-4d7c-af1e-1f564610a2b5",
+  "permissions": [
+    {
+      "users": [
+        "d20e7189-34bc-4d7c-af1e-1f564610a2b5"
+      ],
+      "type": "Read"
+    },
+    {
+      "users": [
+        "d20e7189-34bc-4d7c-af1e-1f564610a2b5"
+      ],
+      "type": "Update"
+    },
+    {
+      "users": [
+        "d20e7189-34bc-4d7c-af1e-1f564610a2b5"
+      ],
+      "type": "Delete"
+    },
+    {
+      "users": [
+        "d20e7189-34bc-4d7c-af1e-1f564610a2b5"
+      ],
+      "type": "Share"
+    }
+  ]
+}

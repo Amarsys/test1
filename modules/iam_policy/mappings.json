@@ -1,0 +1,33 @@
+[
+    [
+        "variableName": "policy_name",
+        "mappingFieldName": "policyName",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true
+    ],
+    [
+        "variableName": "custom_policy",
+        "mappingFieldName": "policyVersion.document",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true,
+        "isUrlEncoded": true
+    ],
+    [
+        "variableName": "description",
+        "mappingFieldName": "description",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true
+    ],
+    [
+        "variableName": "path",
+        "mappingFieldName": "path",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true
+    ],
+    [
+        "variableName": "tags",
+        "mappingFieldName": "tags",
+        "isReferenceVariable": false,
+        "isRootModuleEnabled": true
+    ]
+]
